@@ -29,12 +29,12 @@ This project is licensed under the ${license} license.`;
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-${renderLicenseBadge(data.license)}
+  return `# ${data.projectName}
+${renderLicenseBadge(data.licenseType)}
 
 ## Description
 
-${data.description}
+${data.projectDescription}
 
 `;
 }
